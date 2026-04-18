@@ -1,3 +1,7 @@
+## How to Run
+
+Final Assignment.ipynb is the main file to run, which uses simulator.py and data/ to implement ABC and ABC-SMC
+
 # SBI for Epidemic Parameter Inference on Adaptive Networks
 
 Companion code and data for the simulation-based inference (SBI) class assignment.
@@ -28,6 +32,7 @@ At each of the 200 time steps, three phases are applied synchronously:
 
 ```
 simulator.py                      # Python implementation of the model
+Final Assignment.ipynb            # Final ABC and ABC-SMC Implementation
 data/
   infected_timeseries.csv         # Fraction infected over time (40 replicates)
   rewiring_timeseries.csv         # Rewiring counts over time (40 replicates)
